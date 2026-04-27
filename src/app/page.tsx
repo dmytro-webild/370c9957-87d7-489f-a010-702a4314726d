@@ -63,11 +63,11 @@ export default function LandingPage() {
       tag="PREMIUM HAIR CARE"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?_wi=1",
           imageAlt: "Senerita hair care collection",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=1",
           imageAlt: "Senerita product line up",
         },
         {
@@ -108,37 +108,37 @@ export default function LandingPage() {
           id: "p1",
           name: "Grape Seed Anti-Dandruff",
           price: "LD 45.00",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=2",
         },
         {
           id: "p2",
           name: "Caffeine Shampoo",
           price: "LD 50.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?_wi=2",
         },
         {
           id: "p3",
           name: "Rosemary Shampoo",
           price: "LD 48.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=1",
         },
         {
           id: "p4",
           name: "Caffeine Serum",
           price: "LD 65.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg?_wi=1",
         },
         {
           id: "p5",
           name: "Natural Volumizer",
           price: "LD 55.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-applies-makeup-shows-beauty-tutorial-video-records-vlog_1258-254500.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-applies-makeup-shows-beauty-tutorial-video-records-vlog_1258-254500.jpg?_wi=1",
         },
         {
           id: "p6",
           name: "Total Revitalizer",
           price: "LD 70.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-beauty-vlog_23-2148916270.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-beauty-vlog_23-2148916270.jpg?_wi=1",
         },
       ]}
       title="Discover Our Premium Range"
@@ -175,7 +175,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=3",
           imageAlt: "Foundation bottles on stands",
         },
         {
@@ -188,7 +188,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?_wi=3",
           imageAlt: "Foundation bottles on stands",
         },
       ]}
@@ -227,7 +227,7 @@ export default function LandingPage() {
           role: "Homemaker",
           company: "Tripoli",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2",
         },
         {
           id: "t2",
@@ -235,7 +235,7 @@ export default function LandingPage() {
           role: "Beauty Enthusiast",
           company: "Benghazi",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg?_wi=2",
         },
         {
           id: "t3",
@@ -243,7 +243,7 @@ export default function LandingPage() {
           role: "Pharmacist",
           company: "Misrata",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-applies-makeup-shows-beauty-tutorial-video-records-vlog_1258-254500.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-woman-applies-makeup-shows-beauty-tutorial-video-records-vlog_1258-254500.jpg?_wi=2",
         },
         {
           id: "t4",
@@ -251,7 +251,7 @@ export default function LandingPage() {
           role: "Professional",
           company: "Tripoli",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-beauty-vlog_23-2148916270.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-beauty-vlog_23-2148916270.jpg?_wi=2",
         },
         {
           id: "t5",
