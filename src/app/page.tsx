@@ -48,8 +48,8 @@ export default function LandingPage() {
             description="Discover premium products designed for Libyan families and businesses. Authentic. Reliable. Local."
             tag="PREMIUM HAIR CARE"
             mediaItems={[
-              { imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?_wi=1", imageAlt: "Senerita hair care collection" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=1", imageAlt: "Senerita product line up" }
+              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777318363816-n3pea57d.mp4", imageAlt: "Senerita hair care collection" },
+              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777318479678-dtk614x2.mp4", imageAlt: "Senerita product line up" }
             ]}
             mediaAnimation="slide-up"
             rating={5}
@@ -72,9 +72,9 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={true}
             products={[
-              { id: "p1", name: "Grape Seed Anti-Dandruff", price: "LD 45.00", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=2" },
-              { id: "p2", name: "Caffeine Shampoo", price: "LD 50.00", imageSrc: "http://img.b2bpic.net/free-photo/foundation-advertising-with-different-containers_23-2149511276.jpg?_wi=2" },
-              { id: "p3", name: "Rosemary Shampoo", price: "LD 48.00", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=1" }
+              { id: "p1", name: "Grape Seed Anti-Dandruff", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317948965-emtlqjep.jpg" },
+              { id: "p2", name: " Rosemary Shampoo", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg" },
+              { id: "p3", name: "Caffeine Shampoo ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg" }
             ]}
             title="Discover Our Premium Range"
             description="Formulated with nature's finest extracts to revitalize and strengthen."
@@ -87,8 +87,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "Authentic Ingredients", description: "Sourced from the finest natural reserves.", media: { imageSrc: "http://img.b2bpic.net/free-photo/foundation-bottles-stands_23-2149511226.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "Organic extracts" }], reverse: false },
-              { title: "Science Backed", description: "Formulas designed for maximum efficacy.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317421410-2rdkgphp.jpg?_wi=3", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "Clinical testing" }], reverse: true }
+              { title: "Senerita+Libya ", description: "Sourced from the finest natural reserves.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "ANTI HAIR LOSS SET " }], reverse: false },
+              { title: "Science Backed", description: "Formulas designed for maximum efficacy.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "Clinical testing" }], reverse: true }
             ]}
             title="Why Choose Senerita Libya?"
             description="We blend the best of scientific innovation with pure natural ingredients."
@@ -112,8 +112,8 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
             testimonials={[
-              { id: "t1", name: "Sarah Ahmed", role: "Homemaker", company: "Tripoli", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
-              { id: "t2", name: "Fatima Youssef", role: "Beauty Enthusiast", company: "Benghazi", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
+              { id: "t1", name: "FATIMA ", role: "Homemaker", company: "Tripoli", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
+              { id: "t2", name: "Fatima ", role: "Beauty Enthusiast", company: "Benghazi", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
             ]}
             title="Real Stories from Satisfied Customers"
             description="Hear from our community members."
