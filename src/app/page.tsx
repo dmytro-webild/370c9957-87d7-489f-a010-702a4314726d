@@ -73,8 +73,8 @@ export default function LandingPage() {
             useInvertedBackground={true}
             products={[
               { id: "p1", name: "Grape Seed Anti-Dandruff", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317948965-emtlqjep.jpg" },
-              { id: "p2", name: " Rosemary Shampoo", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg" },
-              { id: "p3", name: "Caffeine Shampoo ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg" }
+              { id: "p2", name: "شامبو إكليل الجبل", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg" },
+              { id: "p3", name: "شامبو + سيروم الكافيين ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg" }
             ]}
             title="Discover Our Premium Range"
             description="Formulated with nature's finest extracts to revitalize and strengthen."
