@@ -48,7 +48,7 @@ export default function LandingPage() {
             description="مستخلصات طبيعية تناسب جميع انواع الشعر "
             tag="عنايتك بشعرك تبداء من هنا "
             mediaItems={[
-              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777483790814-ws7z9gvq.mp4", imageAlt: "Senerita hair care collection" },
+              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777500758031-ht9iuq8y.mp4", imageAlt: "Senerita hair care collection" },
               { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777318479678-dtk614x2.mp4", imageAlt: "Senerita product line up" }
             ]}
             mediaAnimation="slide-up"
