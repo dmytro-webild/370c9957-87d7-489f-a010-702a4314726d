@@ -44,11 +44,11 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
           <HeroSplitDualMedia
             background={{ variant: "radial-gradient" }}
-            title="Senerita Libya — Quality Trusted Since Day One"
-            description="Discover premium products designed for Libyan families and businesses. Authentic. Reliable. Local."
-            tag="PREMIUM HAIR CARE"
+            title="Senerita+Libyaمنتجات طبيعية خالية من السلفات والبرابين"
+            description="مستخلصات طبيعية تناسب جميع انواع الشعر "
+            tag="عنايتك بشعرك تبداء من هنا "
             mediaItems={[
-              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777318363816-n3pea57d.mp4", imageAlt: "Senerita hair care collection" },
+              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777483790814-ws7z9gvq.mp4", imageAlt: "Senerita hair care collection" },
               { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777318479678-dtk614x2.mp4", imageAlt: "Senerita product line up" }
             ]}
             mediaAnimation="slide-up"
