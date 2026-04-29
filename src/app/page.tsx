@@ -60,8 +60,8 @@ export default function LandingPage() {
         <div id="about" data-section="about">
           <TextAbout
             useInvertedBackground={false}
-            tag="OUR MISSION"
-            title="Empowering Natural Beauty Through Science and Nature"
+            tag="كوني متاكدة من اختيارك الصحيح لشعرك "
+            title="مستخلصات طبيعية مصممة لتناسب جميع انواع الشعر  "
           />
         </div>
 
