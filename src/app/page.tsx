@@ -77,7 +77,7 @@ export default function LandingPage() {
               { id: "p3", name: "شامبو + سيروم الكافيين ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg" }
             ]}
             title="من هنا يبدا اهتمامك لشعرك  "
-            description="Formulated with nature's finest extracts to revitalize and strengthen."
+            description="Formulted with nature's finest extracts to revitalize and strengthen."
           />
         </div>
 
