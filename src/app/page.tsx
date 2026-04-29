@@ -53,7 +53,7 @@ export default function LandingPage() {
             ]}
             mediaAnimation="slide-up"
             rating={5}
-            ratingText="Trusted by 5,000+ Libyan families"
+            ratingText="Trusted by 5,000+ Libyan familie"
           />
         </div>
 
@@ -112,11 +112,11 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
             testimonials={[
-              { id: "t1", name: "FATIMA ", role: "Homemaker", company: "Tripoli", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
-              { id: "t2", name: "Fatima ", role: "Beauty Enthusiast", company: "Benghazi", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
+              { id: "t1", name: "FATIMA ", role: "الله منتجكم شامبو السيروم جدا رهيب وفادني كثير ", company: "طرابلس ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
+              { id: "t2", name: "Fatima ", role: "اهنيكم على منتجاتكم الجميلة وتجربة تتكرر اكيد ", company: "بنغازي ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
             ]}
             title="اراء العملاء "
-            description="Hear from our community members."
+            description="تعليقات العملاء و مدى رضائهم عن منتجاتنا  "
           />
         </div>
 
@@ -124,11 +124,11 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "Are products safe for all hair types?", content: "Yes, our natural formula is designed for all hair textures." },
+              { id: "q1", title: "آمنة للشعر؟ Senerita libya هل منتجات", content: "Yes, our natural formula is designed for all hair textures." },
               { id: "q2", title: "Where can I buy Senerita products?", content: "Available through our website and authorized local pharmacies." },
               { id: "q3", title: "Do you offer international shipping?", content: "Currently, we serve the Libyan market exclusively to maintain freshness." }
             ]}
-            sideTitle="Frequently Asked Questions"
+            sideTitle="الأسألة والأستفسارات  "
             faqsAnimation="slide-up"
           />
         </div>
