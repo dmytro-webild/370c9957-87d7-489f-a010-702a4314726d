@@ -21,7 +21,11 @@ export const metadata: Metadata = {
   },
 };
 
-const openSans = Open_Sans({ variable: "--font-open-sans", subsets: ["latin"] });
+
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
