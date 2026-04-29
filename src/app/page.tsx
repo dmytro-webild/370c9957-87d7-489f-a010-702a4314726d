@@ -37,7 +37,7 @@ export default function LandingPage() {
               { name: "Products", id: "products" },
               { name: "Contact", id: "contact" },
             ]}
-            brandName="Senerita Libya"
+            brandName="Senerita+ Libya"
           />
         </div>
 
