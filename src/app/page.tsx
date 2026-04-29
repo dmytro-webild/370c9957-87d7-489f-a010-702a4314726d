@@ -44,7 +44,7 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
           <HeroSplitDualMedia
             background={{ variant: "radial-gradient" }}
-            title="Senerita+Libyaمنتجات طبيعية خالية من السلفات والبرابين"
+            title="Senerita+Libya منتجات طبيعية خالية من السلفات والبرابين"
             description="مستخلصات طبيعية تناسب جميع انواع الشعر "
             tag="عنايتك بشعرك تبداء من هنا "
             mediaItems={[
@@ -77,7 +77,7 @@ export default function LandingPage() {
               { id: "p3", name: "شامبو + سيروم الكافيين ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg" }
             ]}
             title="من هنا يبدا اهتمامك لشعرك  "
-            description="Formulted with nature's finest extracts to revitalize and strengthen."
+            description="نهتم بشعرك وصحته لان هذا واجبنا اتجاهكم  "
           />
         </div>
 
@@ -90,8 +90,8 @@ export default function LandingPage() {
               { title: "شامبو + سيروم الكافيين  ", description: "غني بالبيوتين و الكرياتين والكولاجين ، لتعزيز نمو الشعر والمحافظة على بصيلاتها ومنحه لمعانا وقوة", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية يومية وصحية لشعرك " }], reverse: false },
               { title: "شامبو إكليل الجبل ", description: "تحفيز بصيلات الشعر والمساعدة في التكثيف الحيوي  ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
             ]}
-            title="Why Choose Senerita Libya?"
-            description="We blend the best of scientific innovation with pure natural ingredients."
+            title="صحة الشعر من صحتك وأناقتك "
+            description="منتجات غنية بالمستخلصات الطبيعية لفروة شعر ناعمة وحيوية "
           />
         </div>
 
