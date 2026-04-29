@@ -87,8 +87,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "Senerita+Libya ", description: "Sourced from the finest natural reserves.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "ANTI HAIR LOSS SET " }], reverse: false },
-              { title: "Science Backed", description: "Formulas designed for maximum efficacy.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "Clinical testing" }], reverse: true }
+              { title: "شامبو + سيروم الكافيين  ", description: "غني بالبيوتين و الكرياتين والكولاجين ، لتعزيز نمو الشعر والمحافظة على بصيلاتها ومنحه لمعانا وقوة", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية يومية وصحية لشعرك " }], reverse: false },
+              { title: "شامبو إكليل الجبل ", description: "تحفيز بصيلات الشعر والمساعدة في التكثيف الحيوي  ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
             ]}
             title="Why Choose Senerita Libya?"
             description="We blend the best of scientific innovation with pure natural ingredients."
@@ -115,7 +115,7 @@ export default function LandingPage() {
               { id: "t1", name: "FATIMA ", role: "Homemaker", company: "Tripoli", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
               { id: "t2", name: "Fatima ", role: "Beauty Enthusiast", company: "Benghazi", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
             ]}
-            title="Real Stories from Satisfied Customers"
+            title="اراء العملاء "
             description="Hear from our community members."
           />
         </div>
