@@ -9,7 +9,6 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
 import { Award, Leaf, FlaskConical } from "lucide-react";
@@ -92,16 +91,6 @@ export default function LandingPage() {
             ]}
             title="صحة الشعر من صحتك وأناقتك "
             description="منتجات غنية بالمستخلصات الطبيعية لفروة شعر ناعمة وحيوية "
-          />
-        </div>
-
-        <div id="socialProof" data-section="socialProof">
-          <SocialProofOne
-            textboxLayout="default"
-            useInvertedBackground={true}
-            names={["Libya Health", "Beauty Global", "DistroTech", "NatureCare", "Libyan Retail Co"]}
-            title="Trusted by Local Partners"
-            description="Partners who support our commitment to quality."
           />
         </div>
 
