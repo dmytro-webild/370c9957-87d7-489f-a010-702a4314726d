@@ -52,7 +52,7 @@ export default function LandingPage() {
             ]}
             mediaAnimation="slide-up"
             rating={5}
-            ratingText="Trusted by 5,000+ Libyan families"
+            ratingText="منتجات آمنة %100"
           />
         </div>
 
