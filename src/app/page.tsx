@@ -8,6 +8,7 @@ import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
+import ProductCardThree from '@/components/ecommerce/productCatalog/ProductCatalogItem';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
@@ -86,18 +87,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "فوائد شامبو وسيروم الكافيين  ", description: "غني بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتغذية الشعر وتعزيز بصيلاتها من الجذور وجعلها أقوى وألمع
-مناسب للاستخدام اليومي لشعر ناعم وطبيعي 
-مستحضر لجميع أنواع الشعر خالي من السلفات و البرابين ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759857284-tmxsyp86.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية صحية يومية لشعرك " }], reverse: false },
-              { title: "( الشامبو إكليل الجبل) ", description: "( الشامبو إكليل الجبل )
-يقوي الجذور: يحتوي على الكيراتين لدعم نمو الشعر الصحي.
-يضيف لمعان: غني بالكولاجين للمساعدة على استعادة النعومة واللمعان.
-وبشكل عام، بما أنه شامبو بإكليل الجبل مع كيراتين وكولاجين، فوائده
-تقليل تساقط الشعر.
-تحفيز الدورة الدموية في فروة الرأس.
-تقوية الشعرة من الداخل.
-ترطيب وتحسين مظهر الشعر الباهت أو التالف
-خالي من السلفات و البرابين                                                                      ااااا", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759806647-okfzfs73.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
+              { title: "فوائد شامبو وسيروم الكافيين  ", description: "غني بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتغذية الشعر وتعزيز بصيلاتها من الجذور وجعلها أقوى وألمع\nمناسب للاستخدام اليومي لشعر ناعم وطبيعي \nمستحضر لجميع أنواع الشعر خالي من السلفات و البرابين ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759857284-tmxsyp86.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية صحية يومية لشعرك " }], reverse: false },
+              { title: "( الشامبو إكليل الجبل) ", description: "( الشامبو إكليل الجبل )\nيقوي الجذور: يحتوي على الكيراتين لدعم نمو الشعر الصحي.\nيضيف لمعان: غني بالكولاجين للمساعدة على استعادة النعومة واللمعان.\nوبشكل عام، بما أنه شامبو بإكليل الجبل مع كيراتين وكولاجين، فوائده\nتقليل تساقط الشعر.\nتحفيز الدورة الدموية في فروة الرأس.\nتقوية الشعرة من الداخل.\nترطيب وتحسين مظهر الشعر الباهت أو التالف\nخالي من السلفات و البرابين", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759806647-okfzfs73.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
             ]}
             title="صحة الشعر من صحتك وأناقتك "
             description="منتجات غنية بالمستخلصات الطبيعية لفروة شعر ناعمة وحيوية "
