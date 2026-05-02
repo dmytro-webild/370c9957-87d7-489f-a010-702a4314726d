@@ -114,7 +114,7 @@ export default function LandingPage() {
             useInvertedBackground={true}
             faqs={[
               { id: "q1", title: "لتواصل عبر الواتس آب من هنا ", content: "https://wa.me/c/218946268415 " },
-              { id: "q2", title: "للمتابعة والتواصل عبر الإنستقرام ", content: "Available through our website and authorized local pharmacies." },
+              { id: "q2", title: "للمتابعة والتواصل عبر الإنستقرام ", content: "https://www.instagram.com/senerita_libya?igsh=ZW5pZWMzYzUweGs%3D&utm_source=qr " },
               { id: "q3", title: "للمتابعة والتواصل عبر الفيس بوك ", content: "Currently, we serve the Libyan market exclusively to maintain freshness." }
             ]}
             sideTitle="لطلبات والإستفسارات يرجاء متابعتنا"
