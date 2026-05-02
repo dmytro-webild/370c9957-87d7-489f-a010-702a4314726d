@@ -47,7 +47,7 @@ export default function LandingPage() {
             description="مستخلصات طبيعية تناسب جميع انواع الشعر "
             tag="عنايتك بشعرك تبداء من هنا "
             mediaItems={[
-              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777754237471-dvmgoq0s.mp4", imageAlt: "Senerita hair care collection" },
+              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777754874673-n0so01y6.mp4", imageAlt: "Senerita hair care collection" },
               { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741140013-fiujdr77.mp4", imageAlt: "Senerita product line up" }
             ]}
             mediaAnimation="slide-up"
@@ -72,7 +72,7 @@ export default function LandingPage() {
             useInvertedBackground={true}
             products={[
               { id: "p1", name: "شامبو بذور العنب للقشرة ", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
-              { id: "p2", name: "شامبو إكليل الجبل", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741195511-ntc652ur.jpg" },
+              { id: "p2", name: "شامبو إكليل الجبل", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777754826170-a4vi6un1.jpg" },
               { id: "p3", name: "شامبو + سيروم الكافيين ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741908422-zcfs1rmk.jpg" }
             ]}
             title="من هنا يبدا اهتمامك لشعرك  "
