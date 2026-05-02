@@ -11,7 +11,7 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Award, Leaf, FlaskConical } from "lucide-react";
+import { Leaf, FlaskConical } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -52,7 +52,7 @@ export default function LandingPage() {
             ]}
             mediaAnimation="slide-up"
             rating={5}
-            ratingText="Trusted by 5,000+ Libyan familie"
+            ratingText="Trusted by 5,000+ Libyan families"
           />
         </div>
 
@@ -101,7 +101,7 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
             testimonials={[
-              { id: "t1", name: "FATIMA ", role: "الله منتجكم شامبو السيروم جدا رهيب وفادني كثير ", company: "طرابلس ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
+              { id: "t1", name: "FATIMA ", role: "منتجكم شامبو السيروم جدا رهيب وفادني كثير ", company: "طرابلس ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
               { id: "t2", name: "Fatima ", role: "اهنيكم على منتجاتكم الجميلة وتجربة تتكرر اكيد ", company: "بنغازي ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
             ]}
             title="اراء العملاء "
