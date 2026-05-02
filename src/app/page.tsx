@@ -71,9 +71,9 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={true}
             products={[
-              { id: "p1", name: "شامبو بذور العنب للقشرة ", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
-              { id: "p2", name: "شامبو إكليل الجبل", price: "LD 79", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777755330728-oe4g1r4z.jpg" },
-              { id: "p3", name: "شامبو + سيروم الكافيين ", price: "LD 119", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777755229178-0l9lsfeq.jpg" }
+              { id: "p1", name: "شامبو + سيروم الكافيين  ", price: "LD 119 ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
+              { id: "p2", name: "شامبو+ سيروم الكافين + شامبو بذور العنب + شامبو إكليل الجبل", price: "LD 119 ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777755330728-oe4g1r4z.jpg" },
+              { id: "p3", name: "شامبو إكليل الجبل + شامبو بذور العنب للقشرة ", price: "LD 139", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759406700-crigm2z4.jpg" }
             ]}
             title="من هنا يبدا اهتمامك لشعرك  "
             description="نهتم بشعرك وصحته لان هذا واجبنا اتجاهكم  "
@@ -86,8 +86,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "شامبو + سيروم الكافيين  ", description: "غني بالبيوتين و الكرياتين والكولاجين ، لتعزيز نمو الشعر والمحافظة على بصيلاتها ومنحه لمعانا وقوة", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317919883-u9mbftva.jpg?_wi=2", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية يومية وصحية لشعرك " }], reverse: false },
-              { title: "شامبو إكليل الجبل ", description: "تحفيز بصيلات الشعر والمساعدة في التكثيف الحيوي  ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777317963591-phr5pus9.jpg?_wi=2", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
+              { title: "فوائد شامبو وسيروم الكافيين  ", description: "غني بالبيوتين و الكرياتين والكولاجين ، لتعزيز نمو الشعر والمحافظة على بصيلاتها ومنحه لمعانا وقوة", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759857284-tmxsyp86.jpg", imageAlt: "Foundation bottles" }, items: [{ icon: Leaf, text: "لعناية يومية وصحية لشعرك " }], reverse: false },
+              { title: "شامبو إكليل الجبل ", description: "تحفيز بصيلات الشعر والمساعدة في التكثيف الحيوي  ", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759806647-okfzfs73.jpg", imageAlt: "Science lab" }, items: [{ icon: FlaskConical, text: "لعناية اكثر ولمعان اقوة " }], reverse: true }
             ]}
             title="صحة الشعر من صحتك وأناقتك "
             description="منتجات غنية بالمستخلصات الطبيعية لفروة شعر ناعمة وحيوية "
