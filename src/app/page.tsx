@@ -113,7 +113,7 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "لتواصل عبر الواتس آب من هنا ", content: "Yes, our natural formula is designed for all hair textures." },
+              { id: "q1", title: "لتواصل عبر الواتس آب من هنا ", content: "https://wa.me/c/218946268415 " },
               { id: "q2", title: "للمتابعة والتواصل عبر الإنستقرام ", content: "Available through our website and authorized local pharmacies." },
               { id: "q3", title: "للمتابعة والتواصل عبر الفيس بوك ", content: "Currently, we serve the Libyan market exclusively to maintain freshness." }
             ]}
