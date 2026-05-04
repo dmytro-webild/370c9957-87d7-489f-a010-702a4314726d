@@ -71,7 +71,14 @@ export default function LandingPage() {
             useInvertedBackground={true}
             products={[
               { id: "p1", name: "شامبو وسيروم الكافيين", price: "مستحضر غني بالكافيين، الكولاجين، والبيوتين. يساعد في معالجة تساقط الشعر، تغذية البصيلات من الجذور، ومنح شعرك لمعاناً طبيعياً. مناسب للاستخدام اليومي وخالٍ من السلفات والبارابين.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
-              { id: "p2", name: "مجموعة العناية المتكاملة", price: "تشكيلة شاملة من شامبو الكافيين، شامبو بذور العنب، وشامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777755330728-oe4g1r4z.jpg" },
+              { id: "p2", name: "", price: "( شامبو إكليل الجبل )
+يقوي الجذور: يحتوي على الكيراتين لدعم نمو الشعر الصحي.
+يضيف لمعان: غني بالكولاجين للمساعدة على استعادة النعومة واللمعان.
+وبشكل عام، بما أنه شامبو بإكليل الجبل مع كيراتين وكولاجين، فوائده
+تقليل تساقط الشعر.
+تحفيز الدورة الدموية في فروة الرأس.
+تقوية الشعرة من الداخل.
+ترطيب وتحسين مظهر الشعر الباهت أو التالف. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
               { id: "p3", name: "شامبو إكليل الجبل وبذور العنب", price: "LD 139", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759406700-crigm2z4.jpg" }
             ]}
             title="من هنا يبدأ اهتمامك بشعرك"
