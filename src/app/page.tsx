@@ -42,7 +42,7 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
           <HeroSplitDualMedia
             background={{ variant: "radial-gradient" }}
-            title="Senerita Libya منتجات طبيعية خالية من السلفات والبارابين"
+            title="Senerita Libya        منتجات طبيعية خالية من السلفات والبارابين"
             description="مستخلصات طبيعية تناسب جميع أنواع الشعر"
             tag="عنايتك بشعرك تبدأ من هنا"
             mediaItems={[
