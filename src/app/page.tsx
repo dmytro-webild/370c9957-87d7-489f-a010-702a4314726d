@@ -9,7 +9,6 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
 import { Leaf, FlaskConical } from "lucide-react";
 
@@ -91,21 +90,6 @@ export default function LandingPage() {
             ]}
             title="صحة الشعر تبدأ من عنايتك"
             description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة."
-          />
-        </div>
-
-        <div id="testimonials" data-section="testimonials">
-          <TestimonialCardOne
-            animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="three-columns-all-equal-width"
-            useInvertedBackground={false}
-            testimonials={[
-              { id: "t1", name: "Fatima", role: "Hair Care Enthusiast", company: "Senerita Fan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
-              { id: "t2", name: "Fatima", role: "Professional User", company: "Happy Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
-            ]}
-            title="آراء عملائنا"
-            description="ما يقوله محبو منتجاتنا عن تجربتهم معنا."
           />
         </div>
 
