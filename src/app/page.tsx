@@ -102,11 +102,11 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={false}
             testimonials={[
-              { id: "t1", name: "FATIMA ", role: "منتجكم شامبو السيروم جدا رهيب وفادني كثير ", company: "طرابلس ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
-              { id: "t2", name: "Fatima ", role: "اهنيكم على منتجاتكم الجميلة وتجربة تتكرر اكيد ", company: "بنغازي ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
+              { id: "t1", name: "FATIMA ", role: "sdfghj", company: "kjhgf ", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
+              { id: "t2", name: "Fatima ", role: "sdfghjk ", company: "", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
             ]}
-            title="اراء العملاء "
-            description="تعليقات العملاء و مدى رضائهم عن منتجاتنا  "
+            title="dddddd "
+            description="asdfghjkl "
           />
         </div>
 
