@@ -85,8 +85,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "شامبو وسيروم الكافيين", description: "تركيبة غنية بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتعزيز صحة البصيلات. يمنحك شعراً أقوى وأكثر لمعاناً بشكل طبيعي، ومناسب للاستخدام اليومي.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759857284-tmxsyp86.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية يومية" }], reverse: false },
-              { title: "شامبو إكليل الجبل", description: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل. مثالي لترطيب الشعر التالف واستعادة نعومته.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759806647-okfzfs73.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "لمعان فائق وقوة إضافية" }], reverse: true }
+              { title: "مجموعة العناية المتكاملة ", description: "تشكيلة شاملة من شامبو الكافيين، شامبو بذور العنب، وشامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية يومية" }], reverse: false },
+              { title: "شامبو إكليل الجبل", description: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل. مثالي لترطيب الشعر التالف واستعادة نعومته.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "لمعان فائق وقوة إضافية" }], reverse: true }
             ]}
             title="صحة الشعر تبدأ من عنايتك"
             description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة."
