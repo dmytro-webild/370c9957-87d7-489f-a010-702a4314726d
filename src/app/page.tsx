@@ -79,7 +79,14 @@ export default function LandingPage() {
 تحفيز الدورة الدموية في فروة الرأس.
 تقوية الشعرة من الداخل.
 ترطيب وتحسين مظهر الشعر الباهت أو التالف. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
-              { id: "p3", name: "شامبو إكليل الجبل وبذور العنب", price: "LD 139", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759406700-crigm2z4.jpg" }
+              { id: "p3", name: "", price: "(شامبو بذور العنب ضد القشرة)
+فوائده الأساسية:
+Sage-Infused Relief
+يحتوي على الميرمية (Sage) التي تهدئ فروة الرأس المتهيجة وتعيد
+توازنها الطبيعي.
+Grape Seed Purity
+مستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور.
+يحتوي أيضًا على Salicylic Acid (حمض الساليسيليك) اللي يساعد في إزالة القشرة ومنع تراكمها. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
             title="من هنا يبدأ اهتمامك بشعرك"
             description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم."
