@@ -72,14 +72,7 @@ export default function LandingPage() {
             products={[
               { id: "p1", name: "شامبو وسيروم الكافيين", price: "مستحضر غني بالكافيين، الكولاجين، والبيوتين. يساعد في معالجة تساقط الشعر، تغذية البصيلات من الجذور، ومنح شعرك لمعاناً طبيعياً. مناسب للاستخدام اليومي وخالٍ من السلفات والبارابين.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
               { id: "p2", name: "شامبو إكليل الجبل", price: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
-              { id: "p3", name: "", price: "(شامبو بذور العنب ضد القشرة)
-فوائده الأساسية:
-Sage-Infused Relief
-يحتوي على الميرمية (Sage) التي تهدئ فروة الرأس المتهيجة وتعيد
-توازنها الطبيعي.
-Grape Seed Purity
-مستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور.
-يحتوي أيضًا على Salicylic Acid (حمض الساليسيليك) اللي يساعد في إزالة القشرة ومنع تراكمها. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
+              { id: "p3", name: "شامبو بذور العنب ضد القشرة", price: "Sage-Infused Relief: يحتوي على الميرمية (Sage) التي تهدئ فروة الرأس المتهيجة وتعيد توازنها الطبيعي. Grape Seed Purity: مستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور. يحتوي أيضًا على Salicylic Acid (حمض الساليسيليك) الذي يساعد في إزالة القشرة ومنع تراكمها.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
             title="من هنا يبدأ اهتمامك بشعرك"
             description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم"
