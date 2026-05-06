@@ -9,7 +9,6 @@ import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
 import { Leaf, FlaskConical } from "lucide-react";
 
@@ -43,7 +42,7 @@ export default function LandingPage() {
         <div id="hero" data-section="hero">
           <HeroSplitDualMedia
             background={{ variant: "radial-gradient" }}
-            title="Senerita Libya منتجات طبيعية خالية من السلفات والبارابين"
+            title="Senerita+Libya         منتجات طبيعية  خالية من السلفات والبارابين"
             description="مستخلصات طبيعية تناسب جميع أنواع الشعر"
             tag="عنايتك بشعرك تبدأ من هنا"
             mediaItems={[
@@ -72,8 +71,22 @@ export default function LandingPage() {
             useInvertedBackground={true}
             products={[
               { id: "p1", name: "شامبو وسيروم الكافيين", price: "مستحضر غني بالكافيين، الكولاجين، والبيوتين. يساعد في معالجة تساقط الشعر، تغذية البصيلات من الجذور، ومنح شعرك لمعاناً طبيعياً. مناسب للاستخدام اليومي وخالٍ من السلفات والبارابين.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
-              { id: "p2", name: "مجموعة العناية المتكاملة", price: "تشكيلة شاملة من شامبو الكافيين، شامبو بذور العنب، وشامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777755330728-oe4g1r4z.jpg" },
-              { id: "p3", name: "شامبو إكليل الجبل وبذور العنب", price: "LD 139", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759406700-crigm2z4.jpg" }
+              { id: "p2", name: "", price: "( شامبو إكليل الجبل )
+يقوي الجذور: يحتوي على الكيراتين لدعم نمو الشعر الصحي.
+يضيف لمعان: غني بالكولاجين للمساعدة على استعادة النعومة واللمعان.
+وبشكل عام، بما أنه شامبو بإكليل الجبل مع كيراتين وكولاجين، فوائده
+تقليل تساقط الشعر.
+تحفيز الدورة الدموية في فروة الرأس.
+تقوية الشعرة من الداخل.
+ترطيب وتحسين مظهر الشعر الباهت أو التالف. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
+              { id: "p3", name: "", price: "(شامبو بذور العنب ضد القشرة)
+فوائده الأساسية:
+Sage-Infused Relief
+يحتوي على الميرمية (Sage) التي تهدئ فروة الرأس المتهيجة وتعيد
+توازنها الطبيعي.
+Grape Seed Purity
+مستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور.
+يحتوي أيضًا على Salicylic Acid (حمض الساليسيليك) اللي يساعد في إزالة القشرة ومنع تراكمها. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
             title="من هنا يبدأ اهتمامك بشعرك"
             description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم."
@@ -86,26 +99,11 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "شامبو وسيروم الكافيين", description: "تركيبة غنية بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتعزيز صحة البصيلات. يمنحك شعراً أقوى وأكثر لمعاناً بشكل طبيعي، ومناسب للاستخدام اليومي.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759857284-tmxsyp86.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية يومية" }], reverse: false },
-              { title: "شامبو إكليل الجبل", description: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل. مثالي لترطيب الشعر التالف واستعادة نعومته.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777759806647-okfzfs73.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "لمعان فائق وقوة إضافية" }], reverse: true }
+              { title: "مجموعة العناية المتكاملة ", description: "تشكيلة شاملة من شامبو الكافيين، شامبو بذور العنب، وشامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية يومية" }], reverse: false },
+              { title: "شامبو إكليل الجبل", description: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل. مثالي لترطيب الشعر التالف واستعادة نعومته.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "لمعان فائق وقوة إضافية" }], reverse: true }
             ]}
             title="صحة الشعر تبدأ من عنايتك"
             description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة."
-          />
-        </div>
-
-        <div id="testimonials" data-section="testimonials">
-          <TestimonialCardOne
-            animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="three-columns-all-equal-width"
-            useInvertedBackground={false}
-            testimonials={[
-              { id: "t1", name: "Fatima", role: "Hair Care Enthusiast", company: "Senerita Fan", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-coquettish-brunette-woman-laughing-smiling-looking-down-flirty-standing-ove_1258-87409.jpg?_wi=2" },
-              { id: "t2", name: "Fatima", role: "Professional User", company: "Happy Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-corrects-her-hairstyle-looks-aside_8353-10717.jpg" }
-            ]}
-            title="آراء عملائنا"
-            description="ما يقوله محبو منتجاتنا عن تجربتهم معنا."
           />
         </div>
 
