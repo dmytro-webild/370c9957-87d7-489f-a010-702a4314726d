@@ -35,14 +35,14 @@ export default function LandingPage() {
               { name: "Products", id: "products" },
               { name: "Contact", id: "contact" },
             ]}
-            brandName="Senerita Libya"
+            brandName="Senerita+ Libya"
           />
         </div>
 
         <div id="hero" data-section="hero">
           <HeroSplitDualMedia
             background={{ variant: "radial-gradient" }}
-            title="Senerita+Libya         منتجات طبيعية  خالية من السلفات والبارابين"
+            title="Senerita_Libya         منتجات طبيعية  خالية من السلفات والبارابين"
             description="مستخلصات طبيعية تناسب جميع أنواع الشعر"
             tag="عنايتك بشعرك تبدأ من هنا"
             mediaItems={[
@@ -51,7 +51,7 @@ export default function LandingPage() {
             ]}
             mediaAnimation="slide-up"
             rating={5}
-            ratingText="منتجات آمنة 100%"
+            ratingText="%منتجات آمنة 100"
           />
         </div>
 
@@ -75,7 +75,7 @@ export default function LandingPage() {
               { id: "p3", name: "شامبو بذور العنب ضد القشرة", price: "مستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور، مع حمض الساليسيليك.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
             title="من هنا يبدأ اهتمامك بشعرك"
-            description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم."
+            description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم"
           />
         </div>
 
@@ -85,11 +85,11 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "مجموعة العناية المتكاملة ", description: "تشكيلة شاملة من شامبو الكافيين، شامبو بذور العنب، وشامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية يومية" }], reverse: false },
-              { title: "شامبو إكليل الجبل", description: "يحتوي على الكيراتين والكولاجين لتحفيز نمو الشعر، تقوية الجذور، وتحسين مرونة الشعرة من الداخل. مثالي لترطيب الشعر التالف واستعادة نعومته.", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "لمعان فائق وقوة إضافية" }], reverse: true }
+              { title: "مجموعة العناية المتكاملة ", description: "تشكيلة شاملة من شامبو+سيروم الكافيين+ شامبو بذور العنب ضد القشرة + شامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية ولمعان فائق يومية" }], reverse: false },
+              { title: "مجموعة الراحة  ", description: "جمعنا لكم شامبو بذور العنب ضد القشر لصحة ونظافة فروة الشعر+ شامبو إكليل الجبل  لدعم الشعر الصحي وترطيبه ونعومته ولمعانه", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "معالجة وترميم الشعر من التساقط " }], reverse: true }
             ]}
             title="صحة الشعر تبدأ من عنايتك"
-            description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة."
+            description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة"
           />
         </div>
 
@@ -110,13 +110,13 @@ export default function LandingPage() {
           <ContactText
             useInvertedBackground={false}
             background={{ variant: "rotated-rays-static" }}
-            text="هل أنت مستعدة لتجربة سينيـريتا؟ تواصل معنا اليوم."
+            text="هل أنت مستعدة لتجربة منتجات سنيوريتا ليبيا ؟ تواصل معنا اليوم"
           />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterCard
-            logoText="Senerita Libya"
+            logoText="Senerita_ Libya"
             copyrightText="© 2025 Senerita Libya | جميع الحقوق محفوظة."
           />
         </div>
