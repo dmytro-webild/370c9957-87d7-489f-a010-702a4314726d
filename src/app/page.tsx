@@ -120,9 +120,9 @@ export default function LandingPage() {
             logoText="Senerita_ Libya"
             copyrightText="© 2025 Senerita Libya | جميع الحقوق محفوظة."
             socialLinks={[
-              { icon: MessageCircle, href: "https://wa.me/c/218946268415", ariaLabel: "WhatsApp" },
-              { icon: Instagram, href: "https://www.instagram.com/senerita_libya?igsh=ZW5pZWMzYzUweGs%3D&utm_source=qr", ariaLabel: "Instagram" },
-              { icon: Facebook, href: "https://www.facebook.com/share/1EDmHvo3YN/?mibextid=wwXIfr", ariaLabel: "Facebook" }
+              { icon: MessageCircle, href: "https://wa.me/218946268415", ariaLabel: "WhatsApp" },
+              { icon: Instagram, href: "https://www.instagram.com/senerita_libya/", ariaLabel: "Instagram" },
+              { icon: Facebook, href: "https://www.facebook.com/senerita.libya.official", ariaLabel: "Facebook" }
             ]}
           />
         </div>
