@@ -10,7 +10,7 @@ import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Leaf, FlaskConical } from "lucide-react";
+import { Leaf, FlaskConical, MessageCircle, Instagram, Facebook } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -97,11 +97,12 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "we ", content: "https://wa.me/218946268415" },
-              { id: "q2", title: "in ", content: "https://www.instagram.com/senerita_libya" },
-              { id: "q3", title: "fc ", content: "https://www.facebook.com/share/1EDmHvo3YN/?mibextid=wwXIfr" }
+              { id: "q1", title: "How to reach us", content: "Click to message us on WhatsApp" },
+              { id: "q2", title: "Follow us", content: "Check our Instagram for updates" },
+              { id: "q3", title: "Connect with us", content: "Join our Facebook community" }
             ]}
-            sideTitle="ere "
+            sideTitle="Get in touch"
+            sideDescription="We are happy to answer your questions through any of our social channels."
             faqsAnimation="slide-up"
           />
         </div>
@@ -118,6 +119,11 @@ export default function LandingPage() {
           <FooterCard
             logoText="Senerita_ Libya"
             copyrightText="© 2025 Senerita Libya | جميع الحقوق محفوظة."
+            socialLinks={[
+              { icon: MessageCircle, href: "https://wa.me/c/218946268415", ariaLabel: "WhatsApp" },
+              { icon: Instagram, href: "https://www.instagram.com/senerita_libya?igsh=ZW5pZWMzYzUweGs%3D&utm_source=qr", ariaLabel: "Instagram" },
+              { icon: Facebook, href: "https://www.facebook.com/share/1EDmHvo3YN/?mibextid=wwXIfr", ariaLabel: "Facebook" }
+            ]}
           />
         </div>
       </ReactLenis>
