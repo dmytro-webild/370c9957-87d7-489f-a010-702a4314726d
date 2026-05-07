@@ -97,11 +97,11 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "للمتابعة عبر الواتس آب", content: "https://wa.me/218946268415" },
-              { id: "q2", title: "للمتابعة عبر الإنستقرام", content: "https://www.instagram.com/senerita_libya" },
-              { id: "q3", title: "للمتابعة عبر الفيس بوك", content: "https://www.facebook.com/share/1EDmHvo3YN/?mibextid=wwXIfr" }
+              { id: "q1", title: "we ", content: "https://wa.me/218946268415" },
+              { id: "q2", title: "in ", content: "https://www.instagram.com/senerita_libya" },
+              { id: "q3", title: "fc ", content: "https://www.facebook.com/share/1EDmHvo3YN/?mibextid=wwXIfr" }
             ]}
-            sideTitle="لأي استفسار يرجى التواصل معنا"
+            sideTitle="ere "
             faqsAnimation="slide-up"
           />
         </div>
