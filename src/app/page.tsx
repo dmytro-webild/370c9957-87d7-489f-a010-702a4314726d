@@ -97,12 +97,12 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "How to reach us", content: "Click to message us on WhatsApp" },
-              { id: "q2", title: "Follow us", content: "Check our Instagram for updates" },
-              { id: "q3", title: "Connect with us", content: "Join our Facebook community" }
+              { id: "q1", title: "واتساب", content: "تواصل معنا مباشرة عبر الواتساب للحصول على استشارة سريعة" },
+              { id: "q2", title: "إنستغرام", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
+              { id: "q3", title: "فيسبوك", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
             ]}
-            sideTitle="Get in touch"
-            sideDescription="We are happy to answer your questions through any of our social channels."
+            sideTitle="تواصل معنا"
+            sideDescription="نحن هنا للرد على استفساراتكم عبر قنواتنا الرسمية."
             faqsAnimation="slide-up"
           />
         </div>
@@ -120,9 +120,9 @@ export default function LandingPage() {
             logoText="Senerita_ Libya"
             copyrightText="© 2025 Senerita Libya | جميع الحقوق محفوظة."
             socialLinks={[
-              { icon: MessageCircle, href: "https://wa.me/218946268415", ariaLabel: "WhatsApp" },
+              { icon: MessageCircle, href: "https://wa.me/c/218946268415", ariaLabel: "WhatsApp" },
               { icon: Instagram, href: "https://www.instagram.com/senerita_libya/", ariaLabel: "Instagram" },
-              { icon: Facebook, href: "https://www.facebook.com/senerita.libya.official", ariaLabel: "Facebook" }
+              { icon: Facebook, href: "https://www.facebook.com/SeneritaLibya", ariaLabel: "Facebook" }
             ]}
           />
         </div>
