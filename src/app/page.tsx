@@ -111,7 +111,7 @@ export default function LandingPage() {
           <ContactText
             useInvertedBackground={false}
             background={{ variant: "rotated-rays-static" }}
-            text="هل أنت مستعدة لتجربة منتجات سنيوريتا ليبيا ؟ تواصل معنا اليوم"
+            text="هل أنتم مستعدون لتجربة منتجات سنيوريتا ليبيا ؟ تواصلو معنا الان"
           />
         </div>
 
