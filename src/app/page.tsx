@@ -98,7 +98,7 @@ export default function LandingPage() {
             useInvertedBackground={true}
             faqs={[
               { id: "q1", title: "qw ", content: "wert " },
-              { id: "q2", title: "fg ", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
+              { id: "q2", title: "fg ", content: "hj " },
               { id: "q3", title: "tg ", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
             ]}
             sideTitle="sd "
