@@ -118,7 +118,7 @@ export default function LandingPage() {
         <div id="footer" data-section="footer">
           <FooterCard
             logoText="Senerita_Libya"
-            copyrightText="© 2025 Senerita Libya | جميع الحقوق محفوظة."
+            copyrightText="© 2025 | seneritalibya@gmail.com | جميع الحقوق محفوظة."
             socialLinks={[
               { icon: MessageCircle, href: "https://wa.me/218946268415", ariaLabel: "WhatsApp" },
               { icon: Instagram, href: "https://www.instagram.com/senerita_libya/", ariaLabel: "Instagram" },
