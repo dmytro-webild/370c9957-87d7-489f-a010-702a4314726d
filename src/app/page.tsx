@@ -122,7 +122,7 @@ export default function LandingPage() {
             socialLinks={[
               { icon: MessageCircle, href: "https://wa.me/218946268415", ariaLabel: "WhatsApp" },
               { icon: Instagram, href: "https://www.instagram.com/senerita_libya/", ariaLabel: "Instagram" },
-              { icon: Facebook, href: "https://www.facebook.com/SeneritaLibya", ariaLabel: "Facebook" }
+              { icon: Facebook, href: "https://www.facebook.com/SeneritaLibya.LY", ariaLabel: "Facebook" }
             ]}
           />
         </div>
