@@ -101,7 +101,7 @@ export default function LandingPage() {
               { id: "q2", title: "إنستغرام", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
               { id: "q3", title: "فيسبوك", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
             ]}
-            sideTitle="تواصل معنا"
+            sideTitle="تواصلg معنا"
             sideDescription="نحن هنا للرد على استفساراتكم عبر قنواتنا الرسمية."
             faqsAnimation="slide-up"
           />
