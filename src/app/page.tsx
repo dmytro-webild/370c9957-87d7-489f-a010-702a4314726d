@@ -97,12 +97,12 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "تواصل معنا عبر الواتساب", content: "تواصل معنا مباشرة عبر الواتساب للحصول على استشارة سريعة" },
-              { id: "q2", title: "إنستغرام", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
-              { id: "q3", title: "فيسبوك", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
+              { id: "q1", title: "qw ", content: "تواصل معنا مباشرة عبر الواتساب للحصول على استشارة سريعة" },
+              { id: "q2", title: "fg ", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
+              { id: "q3", title: "tg ", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
             ]}
-            sideTitle="تواصلg معنا"
-            sideDescription="نحن هنا للرد على استفساراتكم عبر قنواتنا الرسمية."
+            sideTitle="sd "
+            sideDescription="se "
             faqsAnimation="slide-up"
           />
         </div>
