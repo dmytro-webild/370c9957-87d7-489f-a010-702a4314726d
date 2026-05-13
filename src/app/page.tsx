@@ -70,7 +70,10 @@ export default function LandingPage() {
             gridVariant="three-columns-all-equal-width"
             useInvertedBackground={true}
             products={[
-              { id: "p1", name: "شامبو وسيروم الكافيين", price: "مستحضر غني بالكافيين، الكولاجين، والبيوتين. يساعد في معالجة تساقط الشعر، تغذية البصيلات من الجذور، ومنح شعرك لمعاناً طبيعياً. مناسب للاستخدام اليومي وخالٍ من السلفات والبارابين.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
+              { id: "p1", name: "شامبو وسيروم الكافيين", price: "
+غني بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتغذية الشعر وتعزيز بصيلاتها من الجذور وجعلها أقوى وألمع
+مناسب للاستخدام اليومي لشعر ناعم وطبيعي. 
+(مستح", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
               { id: "p2", name: "شامبو إكليل الجبل", price: "( الشامبو إكليل الجبل )\nيقوي الجذور: يحتوي على الكيراتين لدعم نمو الشعر الصحي.\nيضيف لمعان: غني بالكولاجين للمساعدة على استعادة النعومة واللمعان.\nوبشكل عام، بما أنه شامبو بإكليل الجبل مع كيراتين وكولاجين، فوائده\nتقليل تساقط الشعر.\nتحفيز الدورة الدموية في فروة الرأس.\nتقوية الشعرة من الداخل.\nترطيب وتحسين مظهر الشعر الباهت أو التالف.\n ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
               { id: "p3", name: "شامبو بذور العنب ضد القشرة", price: "(فوائده الأساسية):\nSage-Infused Relief\nيحتوي على الميرمية (Sage) التي تهدئ فروة الرأس المتهيجة وتعيد\nتوازنها الطبيعي.\nGrape Seed Purity\nمستخلص بذور العنب يساعد في محاربة القشرة ويغذي الشعر من الجذور.\nيحتوي أيضًا على Salicylic Acid (حمض الساليسيليك) اللي يساعد في إزالة القشرة ومنع تراكمها.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
