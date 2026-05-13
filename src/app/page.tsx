@@ -97,7 +97,7 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "qw ", content: "تواصل معنا مباشرة عبر الواتساب للحصول على استشارة سريعة" },
+              { id: "q1", title: "qw ", content: "wert " },
               { id: "q2", title: "fg ", content: "تابعوا جديدنا وآخر العروض عبر @senerita_libya" },
               { id: "q3", title: "tg ", content: "انضموا لمجتمع سنيوريتا ليبيا الرسمي" }
             ]}
