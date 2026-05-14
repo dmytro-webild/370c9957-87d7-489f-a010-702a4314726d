@@ -97,12 +97,12 @@ export default function LandingPage() {
           <FaqSplitText
             useInvertedBackground={true}
             faqs={[
-              { id: "q1", title: "", content: "" },
-              { id: "q2", title: "", content: "" },
-              { id: "q3", title: "", content: "" }
+              { id: "q1", title: "qw ", content: "wert " },
+              { id: "q2", title: "fg ", content: "hj " },
+              { id: "q3", title: "tg ", content: "pl " }
             ]}
-            sideTitle=""
-            sideDescription=""
+            sideTitle="sd "
+            sideDescription="se "
             faqsAnimation="slide-up"
           />
         </div>
