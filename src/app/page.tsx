@@ -51,7 +51,7 @@ export default function LandingPage() {
             ]}
             mediaAnimation="slide-up"
             rating={5}
-            ratingText="منتجات آمنة 100%"
+            ratingText="%منتجات آمنة 100"
           />
         </div>
 
