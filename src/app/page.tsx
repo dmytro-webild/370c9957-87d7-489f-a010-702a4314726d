@@ -6,10 +6,10 @@ import ContactSplitFormParallax from '@/components/sections/contact/ContactSplit
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import FooterMinimal from '@/components/sections/footer/FooterMinimal';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
-import NavbarDropdown from '@/components/ui/NavbarDropdown';
+import NavbarInline from '@/components/ui/NavbarInline';
 import FeaturesAttributeCards from '@/components/sections/features/FeaturesAttributeCards';
 import AboutMediaOverlay from '@/components/sections/about/AboutMediaOverlay';
-import { Leaf, FlaskConical, MessageCircle, Instagram, Facebook, Mail } from "lucide-react";
+import { Leaf, FlaskConical, MessageCircle, Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarDropdown
+          <NavbarInline
             logo="Senerita+ Libya"
             navItems={[
               { name: "Home", href: "#hero" },
