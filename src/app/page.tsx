@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
