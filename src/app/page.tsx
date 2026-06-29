@@ -2,14 +2,14 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactSplitFormParallax from '@/components/sections/contact/ContactSplitFormParallax';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
-import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
-import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import TextAbout from '@/components/sections/about/TextAbout';
-import { Leaf, FlaskConical, MessageCircle, Instagram, Facebook } from "lucide-react";
+import FooterMinimal from '@/components/sections/footer/FooterMinimal';
+import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
+import NavbarDropdown from '@/components/ui/NavbarDropdown';
+import FeaturesAttributeCards from '@/components/sections/features/FeaturesAttributeCards';
+import AboutMediaOverlay from '@/components/sections/about/AboutMediaOverlay';
+import { Leaf, FlaskConical, MessageCircle, Instagram, Facebook, Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -27,54 +27,54 @@ export default function LandingPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarStyleFullscreen
+          <NavbarDropdown
+            logo="Senerita+ Libya"
             navItems={[
-              { name: "Home", id: "hero" },
-              { name: "About", id: "about" },
-              { name: "Products", id: "products" },
-              { name: "Contact", id: "contact" },
+              { name: "Home", href: "#hero" },
+              { name: "About", href: "#about" },
+              { name: "Products", href: "#products" },
+              { name: "Contact", href: "#contact" },
             ]}
-            brandName="Senerita+ Libya"
+            ctaButton={{ text: "تسوق الآن", href: "#products" }}
           />
         </div>
 
         <div id="hero" data-section="hero">
-          <HeroSplitDualMedia
-            background={{ variant: "radial-gradient" }}
+          <HeroSplitKpi
+            tag="عنايتك بشعرك تبدأ من هنا"
             title="Senerita_Libya منتجات طبيعية خالية من السلفات والبارابين"
             description="مستخلصات طبيعية تناسب جميع أنواع الشعر"
-            tag="عنايتك بشعرك تبدأ من هنا"
-            mediaItems={[
-              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777754874673-n0so01y6.mp4", imageAlt: "Senerita hair care collection" },
-              { videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741140013-fiujdr77.mp4", imageAlt: "Senerita product line up" }
+            primaryButton={{ text: "اكتشف المنتجات", href: "#products" }}
+            secondaryButton={{ text: "تواصل معنا", href: "#contact" }}
+            kpis={[
+                { value: "100%", label: "طبيعية" },
+                { value: "5+", label: "سنوات خبرة" },
+                { value: "آمنة", label: "خالية من السلفات" }
             ]}
-            mediaAnimation="slide-up"
-            rating={5}
-            ratingText="%منتجات آمنة 100"
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777754874673-n0so01y6.mp4"
           />
         </div>
 
         <div id="about" data-section="about">
-          <TextAbout
-            useInvertedBackground={false}
+          <AboutMediaOverlay
             tag="كوني متأكدة من اختيارك الصحيح لشعرك"
             title="مستخلصات طبيعية مصممة لتناسب جميع أنواع الشعر"
+            description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم، منتجاتنا تمنحك فروة شعر صحية وناعمة."
+            primaryButton={{ text: "تعرفي على المزيد", href: "#features" }}
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741140013-fiujdr77.mp4"
           />
         </div>
 
         <div id="products" data-section="products">
-          <ProductCardOne
-            animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="three-columns-all-equal-width"
-            useInvertedBackground={true}
-            products={[
-              { id: "p1", name: "شامبو وسيروم الكافيين", price: "غني بالكافيين والكولاجين والبيوتين لمعالجة تساقط الشعر وتغذية الشعر وتعزيز بصيلاتها من الجذور", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
-              { id: "p2", name: "شامبو إكليل الجبل", price: "يقوي الجذور ويحتوي على الكيراتين لدعم نمو الشعر الصحي مع الكولاجين لاستعادة اللمعان", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
-              { id: "p3", name: "شامبو بذور العنب ضد القشرة", price: "يحتوي على الميرمية والمستخلصات الطبيعية للمساعدة في محاربة القشرة وتغذية الفروة", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
+          <FeaturesAttributeCards
+            tag="منتجاتنا الطبيعية"
+            title="تشكيلة العناية بالشعر"
+            description="اكتشفوا حلولنا المبتكرة للعناية بجمال شعركم"
+            items={[
+              { title: "شامبو وسيروم الكافيين", tags: "تساقط الشعر", badge: "الأكثر طلباً", details: [{ icon: Leaf, label: "الفائدة", value: "معالجة التساقط" }], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777741219362-l83s1kf5.jpg" },
+              { title: "شامبو إكليل الجبل", tags: "نمو الشعر", details: [{ icon: FlaskConical, label: "الفائدة", value: "تقوية الجذور" }], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777928486821-fjk1q1er.jpg" },
+              { title: "شامبو بذور العنب", tags: "مضاد للقشرة", details: [{ icon: Leaf, label: "الفائدة", value: "تغذية الفروة" }], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1778102424311-5bu87t9u.jpg" }
             ]}
-            title="من هنا يبدأ اهتمامك بشعرك"
-            description="نهتم بصحة شعرك لأن ذلك جوهر اهتمامنا بكم"
           />
         </div>
 
@@ -84,8 +84,8 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "مجموعة العناية المتكاملة", description: "تشكيلة شاملة من شامبو+سيروم الكافيين+ شامبو بذور العنب ضد القشرة + شامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg", imageAlt: "Senerita caffeine care" }, items: [{ icon: Leaf, text: "عناية صحية ولمعان فائق يومية" }], reverse: false },
-              { title: "مجموعة الراحة", description: "جمعنا لكم شامبو بذور العنب ضد القشر لصحة ونظافة فروة الشعر+ شامبو إكليل الجبل لدعم الشعر الصحي وترطيبه ونعومته ولمعانه", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg", imageAlt: "Senerita rosemary care" }, items: [{ icon: FlaskConical, text: "معالجة وترميم الشعر من التساقط" }], reverse: true }
+              { title: "مجموعة العناية المتكاملة", description: "تشكيلة شاملة من شامبو+سيروم الكافيين+ شامبو بذور العنب ضد القشرة + شامبو إكليل الجبل. حل متكامل لتغذية الشعر وتقوية بنيته من الجذور، مع تركيبة آمنة تناسب مختلف أنواع الشعر", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927250256-vsn9njhf.jpg" }, items: [{ icon: Leaf, text: "عناية صحية ولمعان فائق يومية" }], reverse: false },
+              { title: "مجموعة الراحة", description: "جمعنا لكم شامبو بذور العنب ضد القشر لصحة ونظافة فروة الشعر+ شامبو إكليل الجبل لدعم الشعر الصحي وترطيبه ونعومته ولمعانه", media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Cx9nk9sCSbinRaOXqM7TyaxmbU/uploaded-1777927467041-mjqrrmrj.jpg" }, items: [{ icon: FlaskConical, text: "معالجة وترميم الشعر من التساقط" }], reverse: true }
             ]}
             title="صحة الشعر تبدأ من عنايتك"
             description="منتجات طبيعية تمنحك فروة شعر صحية وناعمة"
@@ -93,22 +93,27 @@ export default function LandingPage() {
         </div>
 
         <div id="contact" data-section="contact">
-          <ContactText
-            useInvertedBackground={false}
-            background={{ variant: "rotated-rays-static" }}
-            text="هل أنتم مستعدون لتجربة منتجات سنيوريتا ليبيا؟ تواصلوا معنا الان"
+          <ContactSplitFormParallax
+            tag="تواصل معنا"
+            title="هل أنتم مستعدون لتجربة منتجات سنيوريتا ليبيا؟"
+            description="نحن هنا للإجابة على كافة استفساراتكم."
+            inputs={[
+              { name: "name", type: "text", placeholder: "الاسم الكامل", required: true },
+              { name: "email", type: "email", placeholder: "البريد الإلكتروني", required: true }
+            ]}
+            textarea={{ name: "message", placeholder: "رسالتكم هنا", rows: 4 }}
+            buttonText="إرسال"
+            ctaLinks={[
+                { icon: Mail, label: "seneritalibya@gmail.com" },
+                { icon: MessageCircle, label: "WhatsApp" }
+            ]}
           />
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterCard
-            logoText="Senerita_Libya"
-            copyrightText="© 2025 | seneritalibya@gmail.com | جميع الحقوق محفوظة."
-            socialLinks={[
-              { icon: MessageCircle, href: "https://wa.me/218946268415", ariaLabel: "WhatsApp" },
-              { icon: Instagram, href: "https://www.instagram.com/senerita_libya/", ariaLabel: "Instagram" },
-              { icon: Facebook, href: "https://www.facebook.com/SeneritaLibya.LY", ariaLabel: "Facebook" }
-            ]}
+          <FooterMinimal
+            brand="Senerita_Libya"
+            copyright="© 2025 | جميع الحقوق محفوظة."
           />
         </div>
       </ReactLenis>
